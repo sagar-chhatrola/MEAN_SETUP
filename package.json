@@ -1,0 +1,35 @@
+{
+  "name": "newnode",
+  "version": "1.0.0",
+  "description": "A new node koa app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliottminns/newnode.git"
+  },
+  "author": "Elliott Minns",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elliottminns/newnode/issues"
+  },
+  "homepage": "https://github.com/elliottminns/newnode#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-validator": "^5.2.0",
+    "jsonwebtoken": "^8.3.0",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-morgan": "^1.0.1",
+    "koa-response-time": "^2.0.0",
+    "koa-router": "^7.2.1",
+    "mongoose": "^4.13.14",
+    "nodemon": "^1.17.5"
+  }
+}
